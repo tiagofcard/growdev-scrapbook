@@ -1,0 +1,191 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: montserrat;
+}
+
+.head {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 35px;
+  background-color: #000;
+}
+
+.orange {
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  height: 35px;
+  background-color: rgb(247, 120, 1);
+}
+
+.title:hover,
+.home:hover {
+  text-decoration: underline;
+}
+
+.home {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.title {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 680px;
+}
+
+.picture {
+  width: 35%;
+  height: 100%;
+  z-index: 9999;
+}
+
+img {
+  width: 450px;
+  height: 680px;
+}
+
+.login {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 500px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-sign {
+  width: 80%;
+  height: 30px;
+  background-color: rgb(247, 120, 1);
+  color: #fff;
+  border: none;
+  font-family: montserrat;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-sign:hover,
+.btn-sign-1:hover {
+  background-color: rgb(189, 95, 7);
+}
+
+.btn-sign-1 {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(247, 120, 1);
+  color: #fff;
+  border: none;
+  font-family: montserrat;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input {
+  height: 30px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  color: rgb(117, 116, 114);
+}
+
+.lg-text {
+  width: 230px;
+}
+
+.logo {
+  position: absolute;
+  right: 20px;
+  z-index: 9999;
+}
+
+.log {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+}
+
+.register-text {
+  text-decoration: none;
+  color: rgb(117, 116, 114);
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.email-signup {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.text.register {
+  display: flex;
+  flex-direction: column;
+  color: rgb(117, 116, 114);
+}
+
+.contact {
+  height: 70px;
+  background-color: #000;
+}
+
+.contact {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  justify-content: flex-end;
+}
+
+.rights {
+  margin: 15px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+.bi-instagram,
+.bi-facebook,
+.bi-twitter,
+.bi-github {
+  color: #fff;
+}
